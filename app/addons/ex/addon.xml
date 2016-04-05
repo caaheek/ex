@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ex</id>
+    <version>2.3</version>
+    <name>EX</name>
+    <description>Тестовый аддон.</description>
+    <priority>4294967298</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <supplier>caHek</supplier>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_number">
+                        <type>input</type>
+                    </item>
+                    <item id="ex_data">
+                        <type>hidden</type>
+                        <default_value>a:1:{s:11:"ex_date";s:0:"";}</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>    
+    <compatibility>
+        <core_version>
+            <min>4.3.6</min>
+            <max>4.3.6</max>
+        </core_version>    
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+</addon>
