@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>ex</id>
-    <version>2.5.2</version>
+    <version>2.6.1</version>
     <name>EX</name>
-    <description>Тестовый аддон.</description>
+    <description>Example addon.</description>
     <priority>4294967298</priority>
     <position>0</position>
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>

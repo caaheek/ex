@@ -7,3 +7,7 @@ msgstr "Project-Id-Version: tygh"
 msgctxt "Languages::ex_test"
 msgid "EX test"
 msgstr "EX test"
+
+msgctxt "SettingsOptions::sample_addon::marketplace_license_number"
+msgid "Marketplace license number"
+msgstr "Marketplace license number"
